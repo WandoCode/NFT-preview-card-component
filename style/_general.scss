@@ -1,0 +1,31 @@
+body, h1, h2, h3 {
+  @include font-family;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $c-main-bg;
+  height: 100vh;
+}
+
+h1 {
+  color: $c-white;
+  font-size: 22px;
+}
+
+p {
+  font-size: $font-size;
+  color: $c-primary;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+
+a {
+  color: $c-white;
+  &:hover{
+    color:$c-secondary
+  }
+}

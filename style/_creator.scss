@@ -1,0 +1,14 @@
+.creator {
+  display: flex;
+  align-items: center;
+  margin-top: 1em;
+  color: $c-primary;
+  font-weight: 300;
+
+  &__avatar {
+    height: 2em;
+    border-radius: 100%;
+    border: 1px solid $c-white;
+    margin-right: 1em;
+  }
+}
